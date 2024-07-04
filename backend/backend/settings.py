@@ -24,7 +24,7 @@ from decouple import config
 SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://nfcapi-9073f4e113d9.herokuapp.com/']
 
 
 # Application definition
